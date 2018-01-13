@@ -10,7 +10,7 @@ jQuery(function() {
 	var $el;
 
 	var href = $sidebar.find('a').first().attr("href");
-	console.log(href)
+	console.log(href+'hreh')
 	if (href !== undefined && href.charAt(0) === "#") {
 		setActiveSidebarLink();
 
